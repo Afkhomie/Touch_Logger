@@ -1,0 +1,42 @@
+install adb on ur pc
+process for adb setup:
+install adb form here: https://dl.google.com/android/repository/platform-tools-latest-windows.zip
+extract it
+go inside: Downloads\platform-tools-latest-windows\platform-tools
+and find adb.exe inside that folder and copy it.
+paste adb.exe in the touch_logger_test folder that u just downloaded.
+eg:
+	/macros
+	adb.exe <-- paste it here with other files
+	main.exe
+
+take a data cable plug it in with ur phone and pc .
+
+goto ur phone setting.
+about phone>build number> tap 7times> open developer options> enable  usb debugging and allow your pc.
+
+after that
+run main.exe
+when the main app will open
+ click on the refresh icon 
+which is next to the connect button 
+and after clicking that
+ Click to connect button in order to connect with your mobile device.
+
+Now if you do some movements in your mobile like tap swipe then in the virtual gesture map it should be seen
+
+now we are gonna have some tests:
+
+after your phone is connected to the program and all thing is set press F9 or click on the record button to start testing
+
+now you need to do some moments either tap swipe open some apps and close them clear them from the recent or do anything
+
+after you complete  ur movements click F9 again or the stop button in order to stop recording 
+
+no you need to save that from the save button on the right side of the clear button give it some name giving description and other things are optional thing and no need to do those after saving go to playback time select your macros in there which you saved earlier
+
+after this there are bunch of options but among them click on scale you can loop the automation however you want but let's not do that for now and you can also change the speed depending on your choice but let's skip that to click on the scale and tick it 
+ after that
+press F11 or click on the play button and wait for sometimes it might take some time and the accents that you have done when recording will be repeated again after clicking on the playback time at that time when the playback is running please do not touch your mobile screen the program will automatically perform the same repetitive task that you did earlier.
+
+Finally our test is complete now you may close the application delete it or tweak it or test with other options whatever you want and just let me know all the things that whether it is working or not whether you found a bug or not and also are there any glitches or not and if some glitches or errors are happened then please let me know or just DM me in Instagram.

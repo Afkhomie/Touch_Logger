@@ -1,0 +1,22 @@
+# Build files
+build/
+dist/
+
+# Cache and database files
+device_cache.json
+touch_logger.db
+
+# Log files
+log.txt
+
+# Backup files
+main.py.bak
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
