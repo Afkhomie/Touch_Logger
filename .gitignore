@@ -8,15 +8,43 @@ touch_logger.db
 
 # Log files
 log.txt
+*.log
 
 # Backup files
 main.py.bak
+*.bak
+*.backup
+*~
 
 # Python cache
 __pycache__/
 *.pyc
 *.pyo
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+.env
 
 # IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Compiled files
+*.zip
+*.exe
+
+# User plugins directory
+plugins/
